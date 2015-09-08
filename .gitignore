@@ -1,0 +1,11 @@
+# General files.
+*.DS_Store
+*.log
+
+# Vim-related files.
+*.vim
+*.swp
+*.swo
+
+# Project-specific files.
+bootstrap-3.3.5

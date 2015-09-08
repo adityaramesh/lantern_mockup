@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- Tells IE which version to use when rendering the page.
+		     "Edge" uses the latest version. -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Sets the width of the page to the screen width of the
+		     device. Also disable zooming. -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<title>Lantern Dashboard</title>
+
+		<link href="../../css/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media
+				 queries -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="container">
+			<h1 class="page-header">Lantern Dashboard</h1>
+			<h2 class="sub-header">Overview</h2>
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th style="border-bottom: none">Task</th>
+						<th colspan="8" class="text-center">Models</th>
+						<th colspan="3" class="text-center">Best Results</th>
+					</tr>
+					<tr>
+						<th style="border-top: none"></th>
+						<th>Queued</th>
+						<th></th>
+						<th>Running</th>
+						<th></th>
+						<th>Paused</th>
+						<th>Error</th>
+						<th>Total</th>
+						<th></th>
+						<th>Model</th>
+						<th>Score</th>
+						<th>Configuration</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>STL-10 surrogate_batch_1</td>
+						<td>TODO</td>
+						<td class="small text-bottom">5:00 / 15:00</td>
+						<td>TODO</td>
+						<td class="small text-bottom">1:20:00 ± 15:00 / 20:30:00</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td class="small text-bottom">30:30:00 ± 2:00:00</td>
+						<td>unsup_3x3_v2</td>
+						<td>95.45%</td>
+						<td>blah blah blah</td>
+					</tr>
+					<tr>
+						<td>SVHN small</td>
+						<td>TODO</td>
+						<td class="small text-bottom">5:00 / 15:00</td>
+						<td>TODO</td>
+						<td class="small text-bottom">1:20:00 ± 15:00 / 20:30:00</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td class="small text-bottom">30:30:00 ± 2:00:00</td>
+						<td>sup_3x3_v2</td>
+						<td>92.85%</td>
+						<td>blah blah blah</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<h2 class="sub-header">Tasks</h2>
+			<h3>STL-10 surrogate_batch_1</h3>
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th style="border-bottom: none">Model</th>
+						<th colspan="8" class="text-center">Instances</th>
+						<th colspan="2" class="text-center">Best Results</th>
+					</tr>
+					<tr>
+						<th style="border-top: none"></th>
+						<th>Queued</th>
+						<th></th>
+						<th>Running</th>
+						<th></th>
+						<th>Paused</th>
+						<th>Error</th>
+						<th>Total</th>
+						<th></th>
+						<th>Validation Accuracy</th>
+						<th>Configuration</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>unsup_3x3_v2</td>
+						<td>TODO</td>
+						<td class="small text-bottom">5:00 / 15:00</td>
+						<td>TODO</td>
+						<td class="small text-bottom">1:20:00 ± 15:00 / 20:30:00</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td class="small text-bottom">30:30:00 ± 2:00:00</td>
+						<td>95.45%</td>
+						<td>blah blah blah</td>
+					</tr>
+					<tr>
+						<td>unsup_3x3_v3</td>
+						<td>TODO</td>
+						<td class="small text-bottom">5:00 / 15:00</td>
+						<td>TODO</td>
+						<td class="small text-bottom">1:20:00 ± 15:00 / 20:30:00</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td class="small text-bottom">30:30:00 ± 2:00:00</td>
+						<td>95.45%</td>
+						<td>blah blah blah</td>
+					</tr>
+					<tr>
+						<td>unsup_3x3_v4</td>
+						<td>TODO</td>
+						<td class="small text-bottom">5:00 / 15:00</td>
+						<td>TODO</td>
+						<td class="small text-bottom">1:20:00 ± 15:00 / 20:30:00</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td class="small text-bottom">30:30:00 ± 2:00:00</td>
+						<td>95.45%</td>
+						<td>blah blah blah</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3>SVHN small</h3>
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th style="border-bottom: none">Model</th>
+						<th colspan="8" class="text-center">Instances</th>
+						<th colspan="2" class="text-center">Best Results</th>
+					</tr>
+					<tr>
+						<th style="border-top: none"></th>
+						<th>Queued</th>
+						<th></th>
+						<th>Running</th>
+						<th></th>
+						<th>Paused</th>
+						<th>Error</th>
+						<th>Total</th>
+						<th></th>
+						<th>Validation Accuracy</th>
+						<th>Configuration</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>sup_3x3_v2</td>
+						<td>TODO</td>
+						<td class="small text-bottom">5:00 / 15:00</td>
+						<td>TODO</td>
+						<td class="small text-bottom">1:20:00 ± 15:00 / 20:30:00</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td class="small text-bottom">30:30:00 ± 2:00:00</td>
+						<td>95.45%</td>
+						<td>blah blah blah</td>
+					</tr>
+					<tr>
+						<td>sup_3x3_v3</td>
+						<td>TODO</td>
+						<td class="small text-bottom">5:00 / 15:00</td>
+						<td>TODO</td>
+						<td class="small text-bottom">1:20:00 ± 15:00 / 20:30:00</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td class="small text-bottom">30:30:00 ± 2:00:00</td>
+						<td>95.45%</td>
+						<td>blah blah blah</td>
+					</tr>
+					<tr>
+						<td>sup_3x3_v4</td>
+						<td>TODO</td>
+						<td class="small text-bottom">5:00 / 15:00</td>
+						<td>TODO</td>
+						<td class="small text-bottom">1:20:00 ± 15:00 / 20:30:00</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td>TODO</td>
+						<td class="small text-bottom">30:30:00 ± 2:00:00</td>
+						<td>95.45%</td>
+						<td>blah blah blah</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!-- Placed at the end of the document so the pages load faster. -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug. -->
+		<script src="../../js/ie10-viewport-bug-workaround.js"></script>
+	</body>
+</html>
