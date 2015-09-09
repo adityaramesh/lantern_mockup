@@ -11,8 +11,6 @@ This repository contains mockup webpages for Lantern Dashboard.
 
 # TODO
 
-- Mouseover description for times.
-- Make the tables sortable.
 - Mockup for model page.
 
 - Use Websockets and Tornado for Python to send data.
@@ -29,7 +27,9 @@ websockets interface):
 	- When a client clicks on a model page, it sends a request for more data.
 	- When the server gets an update, it sends the modifications to the client.
 
-- Scatterplot for each task (1d scatterplot with points colored by model).
+- Scatterplot for each task (1d scatterplot with points colored by model) (do
+this later; I don't think this is urgent).
+
 - How to view configuration for each model?
 	- Idea: expand the row of the table to fit the JSON description/bullet list
 	with the configuration parameters.
